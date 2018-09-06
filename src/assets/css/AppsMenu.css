@@ -1,0 +1,27 @@
+.apps-menu {
+  background-color: #1E1E1E;
+  height: 100%;
+}
+
+.server-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5px;
+  margin-top: 20%;
+}
+
+.available-apps-section {
+  color: #FFFFFF;
+  margin-top: 60%;
+}
+
+.app-section-header {
+  color: #646464;
+  font-size: 12px;
+  margin: 10px;
+  margin-left: 30px;
+}

@@ -1,0 +1,81 @@
+.action-button-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.action-button {
+  color:#FFFFFF;
+  cursor: pointer;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 50%;
+  font-weight: 500;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.action-button-group .large {
+  font-size: 45px;
+  height: 50px;
+  line-height: 50px;
+  margin: 10px;
+  width: 50px;
+}
+
+.action-button-group .small {
+  font-size: 20px;
+  height: 25px;
+  line-height: 25px;
+  margin: 5px;
+  width: 25px;
+}
+
+.action-button-group .destroy {
+  border-color: #646464;
+  color: #646464;
+}
+
+.action-caption {
+  color: #FFFFFF;
+  margin: auto;
+}
+
+.action-caption-large {
+  font-size: 12px;
+}
+
+.action-caption-small {
+  font-size: 5px;
+}
+
+.action-button-blueviolet {
+  background: blueviolet;
+  border-color: blueviolet;
+}
+
+.action-button-deepskyblue {
+  background: deepskyblue;
+  border-color: deepskyblue;
+}
+
+.action-button-greenyellow {
+  background: greenyellow;
+  border-color: greenyellow;
+}
+
+.action-button-lightgreen {
+  background: lightgreen;
+  border-color: lightgreen;
+}
+
+.action-button-magenta {
+  background: magenta;
+  border-color: magenta;
+}
